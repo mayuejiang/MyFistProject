@@ -1,10 +1,6 @@
 delete from himall_bonusreceive ;
-
 delete from himall_browsinghistory;
-
 delete from himall_memberintegral where MemberId not in (1,481);
-
-
 delete from himall_memberintegralrecordaction;
 delete from himall_memberintegralrecord;
  
@@ -23,8 +19,7 @@ delete from himall_chargedetail;
 delete from himall_favoriteshops;
 delete from himall_giftsorder;
 
-
-DELETE from himall_members where Id not in (1,481);
+delete from himall_members where Id not in (1,481);
 delete from himall_membercontacts; 
 delete from himall_memberlabel; 
 delete from himall_membersignin; 
