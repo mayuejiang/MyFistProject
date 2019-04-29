@@ -8,10 +8,9 @@ delete from himall_productcomments;
 
 delete from himall_shopbonusreceive;
 
- delete from himall_shopbonusreceive;
+delete from himall_shopbonusreceive;
 
 delete from himall_shopbonusgrant;
-
 
 delete from himall_capitaldetail;
 delete from himall_capital where MemId not in (1,481);
@@ -32,12 +31,7 @@ delete from himall_orderrefunds;
 delete from himall_orders; 
 delete from himall_productconsultations; 
 delete from himall_userinvest; 
- 
 
- 
 delete from himall_logs;
 
 delete from himall_managers where username not in('selleradmin','admin');
-
-
-
