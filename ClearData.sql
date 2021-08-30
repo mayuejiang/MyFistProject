@@ -33,3 +33,5 @@ delete from himall_productconsultations;
 delete from himall_userinvest; 
 delete from himall_logs;
 delete from himall_managers where username not in('selleradmin','admin');
+
+#this is my test message.
