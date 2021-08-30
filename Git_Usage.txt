@@ -26,8 +26,8 @@ git checkout branch_name
 git branch
 
 #delete a branch
-git -d branch_name
-git -D branch_name  #force delete
+git branch -d branch_name
+git branch -D branch_name  #force delete
 
 
 git merge new_branch
