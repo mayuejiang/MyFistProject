@@ -1,0 +1,17 @@
+git init
+git config --global user.name yuejiang_ma@163.com
+git config --global user.email yuejiang_ma@163.com
+git add abc.txt
+git add 123.txt
+git status
+git commit -m 'add 2 file'
+git rm 123.txt
+git commit -m 'delete a file'
+
+#first 
+git remote add origin https://github.com/mayuejiang/MyFistProject.git/
+
+git push -u origin master
+
+
+git pull origin master
