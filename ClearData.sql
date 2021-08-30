@@ -35,3 +35,4 @@ delete from himall_logs;
 delete from himall_managers where username not in('selleradmin','admin');
 
 #this is my test message.
+#modify by web
