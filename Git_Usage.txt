@@ -30,3 +30,6 @@ git -d branch_name
 git -D branch_name  #force delete
 
 
+git merge new_branch
+
+
