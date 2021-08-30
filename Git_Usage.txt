@@ -15,3 +15,18 @@ git push -u origin master
 
 
 git pull origin master
+
+#create a new branch
+git checkout -b new_branch
+
+#switch to a branch
+git checkout branch_name
+
+#view all branchs
+git branch
+
+#delete a branch
+git -d branch_name
+git -D branch_name
+
+
