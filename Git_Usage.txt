@@ -27,6 +27,6 @@ git branch
 
 #delete a branch
 git -d branch_name
-git -D branch_name
+git -D branch_name  #force delete
 
 
